@@ -1,4 +1,5 @@
 console.log("This is loaded from the external js");
+alert("This is an alert!");
 var name = "Sara Alfakey";
 var school = "Philip O Berry";
 let hobby = "Listening to Music";
