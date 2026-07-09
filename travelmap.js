@@ -9,6 +9,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 var marker = L.marker(coordinates).bindPopup("<p>Hello, From Japan!</p>").addTo(map);
-var marker1 = L.circle(place1,{color: "black", fillColor: "#5e1f12", radius: 120}).bindPopup("<p>Hello from Shibuya Crossing</p>.addTo(map);
-var marker2 = L.circle(place2,{color: "black", fillColor: "#5e1f12", radius: 120}).bindPopup("<p>Hello from Tokyo Tower</p>.addTo(map);
-var marker3 = L.circle(place3,{color: "black", fillColor: "#5e1f12", radius: 120}).bindPopup("<p>Hello from Tokyo Dome</p>.addTo(map);
+var marker1 = L.circle(place1,{color: "black", fillColor: "#5e1f12", radius: 120}).bindPopup("<p>Hello from Shibuya Crossing</p>).addTo(map);
+var marker2 = L.circle(place2,{color: "black", fillColor: "#5e1f12", radius: 120}).bindPopup("<p>Hello from Tokyo Tower</p>).addTo(map);
+var marker3 = L.circle(place3,{color: "black", fillColor: "#5e1f12", radius: 120}).bindPopup("<p>Hello from Tokyo Dome</p>).addTo(map);
